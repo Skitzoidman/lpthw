@@ -10,7 +10,7 @@ class Animal(object):
 ## Dog is-a/inherits from Animal and has-a __init__ that takes self and name params 
 class Dog(Animal):
     def __init__(self, name):
-        ## get name-attribute from Dog and set it to variable "name"
+        ## Dog has-a name-attribute; get name-attribute from Dog and set it to variable "name"
         self.name = name
 
 ## Cat is-a/inherits from Animal and has-a __init__ that takes self and name params
