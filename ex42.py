@@ -18,7 +18,6 @@ class Cat(Animal):
     def __init__(self, name):
         ## get name-attribute from self-attribute and set it to variable "name"
         self.name = name
-
     def print_name(self):
         print(self.name)
 
@@ -34,6 +33,7 @@ class Person(object):
         print(self.name)
     def print_pet(self):
         print(self.pet.name)
+
 ## Employee is-a/inherits from Person and has-a __init__ that takes self, name, salary params 
 class Employee(Person):
     def __init__(self, name, salary):
